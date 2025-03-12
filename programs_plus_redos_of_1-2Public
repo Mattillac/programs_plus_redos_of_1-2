@@ -1,9 +1,9 @@
 #redo of batch 1
 #Prog01: Create a program that ask user to input 2 numbers. Print the bigger number.
-answer_a = int(input("Enter number: "))
-answer_b = int(input("Enter number: "))
+answer_a = int(input("Enter first: "))
+answer_b = int(input("Enter second: "))
 if answer_a < answer_b:
-    print(answer_a"is much bigger!")
+    print(" first is the bigger number")
 elif answer_b > answer_a:
-    print(answer_b"is much bigger!")
+    print("second is the bigger number")
 #redo of batch 2
