@@ -2,8 +2,15 @@
 #Prog01: Create a program that ask user to input 2 numbers. Print the bigger number.
 answer_a = int(input("Enter first: "))
 answer_b = int(input("Enter second: "))
-if answer_a < answer_b:
+if answer_a > answer_b:
     print(" first is the bigger number")
-elif answer_b > answer_a:
+elif answer_b < answer_a:
     print("second is the bigger number")
+
+#Prog02: Create a program that ask user to input 2 numbers. Print "Equal" when the numbers are the same.
+answer_a = int(input("Enter first: "))
+answer_b = int(input("Enter second: "))
+if answer_a == answer_b:
+    print("Equal")
+
 #redo of batch 2
